@@ -1,0 +1,278 @@
+.heading{
+    color: #004750;
+}
+.sub-heading{
+    color: gray;
+}
+.circle1{
+    border: 2px solid #E3EEF0; 
+    border-radius: 200px;
+    padding: 35px;
+}
+.circle2{
+    border: 2px solid white; 
+    box-shadow: 1px 1px 30px #E3EEF0;
+    border-radius: 200px;
+    padding: 50px;
+}
+.circle3{
+    border: 2px dashed #56c8d0;  
+    border-radius: 150px;
+    padding: 50px;
+}
+.circle4{
+    border: 2px solid #E3EEF0; 
+     border-radius: 100px;
+    padding: 50px;
+}
+
+.arrow-div{
+    position: relative;
+    top: -22px;
+}
+.arrow {
+    border: 1px solid white;
+    border-width: 0 10px 10px 0;
+    padding: 3px;
+
+}
+.up {
+    transform: rotate(-135deg);
+    -webkit-transform: rotate(-135deg);
+}
+.center-box{
+    border: 2px solid white; 
+    box-shadow: 1px 1px 50px #E3EEF0; 
+    border-radius: 5px; 
+    width: 200px; 
+    margin-top: -30px;
+}
+.box-text{
+    color: gray;
+    font-size: 12px;
+}
+
+
+#parent {
+    position: relative;
+}
+
+#parent img {
+    width: 140px;
+
+}
+
+#parent .crm {
+    position: absolute;
+    z-index: 12;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    margin-top: -75px;
+
+}
+
+#parent .community {
+    position: absolute;
+    z-index: 12;
+    right: 5px;
+    bottom: 50px;
+    margin: 0 auto;
+}
+
+#parent .resident {
+    position: absolute;
+    z-index: 12;
+
+    right: 0px;
+
+    top: 30px;
+    margin: 0 auto;
+}
+
+#parent .payments {
+    position: absolute;
+    z-index: 12;
+    bottom: -10px;
+    left: 80px;
+    margin: 0 auto;
+}
+
+#parent .communication {
+    position: absolute;
+    z-index: 12;
+    bottom: -15px;
+    right: 0px;
+    left: 100px;
+    margin: 0 auto;
+}
+
+#parent .maintenance {
+    position: absolute;
+    z-index: 12;
+    top: 130px;
+    left: -20px;
+    margin: 0 auto;
+}
+
+#parent .reports {
+    position: absolute;
+    z-index: 12;
+    top: 10px;
+    left: 5%;
+    margin: 0 auto;
+}
+
+.content {
+    margin-top: -30px;
+    height: 130px;
+}
+
+.main {
+    margin: 50px 350px;
+}
+
+/*Responsive Section**/
+@media only screen and (max-width: 2034px) {
+    .main {
+        margin: 50px 500px;
+    }
+}
+@media only screen and (max-width: 1934px) {
+    .main {
+        margin: 50px 500px;
+    }
+}
+@media only screen and (max-width: 1834px) {
+    .main {
+        margin: 50px 300px;
+    }
+}
+@media only screen and (max-width: 1634px) {
+    .main {
+        margin: 50px 300px;
+    }
+}
+@media only screen and (max-width: 1434px) {
+    .main {
+        margin: 50px 300px;
+    }
+}
+@media only screen and (max-width: 1334px) {
+    .main {
+        margin: 50px 300px;
+    }
+}
+@media only screen and (max-width: 1284px) {
+    .main {
+        margin: 50px 100px;
+    }
+}
+
+@media only screen and (max-width: 1083px) {
+    .main {
+        margin: 50px 100px;
+    }
+}
+
+@media only screen and (max-width: 885px) {
+    .main {
+        margin: 50px 20px;
+    }
+}
+
+@media only screen and (max-width: 768px) {
+    .main {
+        margin: 0px;
+    }
+
+    .content {
+        margin-top: -10px;
+        height: 250px;
+
+    }
+    .circle1{
+        padding: 25px;
+    }
+    #parent .resident {
+        top: 60px;
+    }
+    #parent .community {
+        
+        bottom: 90px;
+        right: -10px;
+    }
+    #parent .maintenance {
+       
+        top: 180px;
+    }
+    #parent .payments {
+    
+        bottom: 60px;
+        left: 0px;
+    }
+}
+
+@media only screen and (max-width: 575px) {
+
+
+    .box-image img{
+        width: 100px!important;
+    }
+
+}
+@media only screen and (max-width: 510px) {
+    .box-text{
+        font-size: 10px;
+    }
+
+    .circle3{
+        padding: 42px  50px 30px 50px;
+    }
+    .circle4{
+        padding: 40px  50px 0px 50px;
+    }
+    #parent .maintenance {
+       
+        top: 150px;
+    }
+}
+@media only screen and (max-width: 431px) {
+    .box-text{
+        font-size: 10px;
+    }
+
+    .circle2{
+        padding: 50px 40px 30px 40px;
+    }
+    .circle3{
+        padding: 40px  40px 30px 40px;
+    }
+    #parent .resident {
+        top: 40px;
+        right: -20px;
+    }
+    #parent .community {
+        
+        
+        right: -30px;
+    }
+    #parent .communication {
+        bottom: -25px;
+  
+    }
+    #parent .maintenance {
+       
+        left: -30px;
+    }
+    #parent .payments {
+    
+        bottom: 30px;
+        left: -10px;
+    }
+    #parent .reports {
+       
+        top: 30px;
+        left: -10px;
+    }
+}
